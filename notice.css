@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+   
+ }
+ body{
+     font-family: sans-serif;
+     background-color:none;
+     
+   
+   
+ }
+ 
+ .first{
+     width:100%;
+     height: 150px;
+     background-color:#ffffff;
+     
+ }
+ .logo img{
+    top:30px;
+    height: 160px;
+    width: 160px;
+    margin-top: 9px;
+ 
+   }
+ /* .pra h3,h2,h1{
+     display: flex;
+     width:100%;
+     text-align:center;
+     top:0%;
+     left:70px;
+     position: absolute;
+   
+     justify-content:space-around;
+     
+   } */
+   
+   
+  .pra h3{
+   display: flex;
+   width: 100%;
+   text-align: center;
+   top: 0%;
+   position: absolute;
+   justify-content: space-around;
+     color:#000000;;
+     font-size: 20px;
+     font-size: 20px;
+   margin-top: 7px;
+     
+   }
+  .pra h2{
+     margin-top: 40px;
+     color:#000000;;
+     font-size: 25px;
+     display: flex;
+     width: 100%;
+     text-align: center;
+     top: 0%;
+     left: 0px;
+     right: px;
+     position: absolute;
+     
+     justify-content: space-around;
+   }
+   .pra h1{
+     margin-top: 80px;
+     font-size: 45px;
+     color: crimson;
+     /* font-family: mv boli; */
+     font-family: 'Tilt Prism', cursive;
+     display: flex;
+     width: 100%;
+     text-align: center;
+     top: 0%;
+     position: absolute;
+     justify-content: space-around;
+ 
+   }
+ 
+    
+ 
+ .menu_bar{
+     background-color:#5ebab7;
+     height: 70px;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0.5%;
+     margin-top: 2%;
+ }
+ .menu_bar ul{
+     list-style: none;
+     display: flex;
+ 
+ 
+ }
+ .menu_bar ul li{
+     padding: 10px 30px;
+     font-size: 20px;
+     position: relative;
+ 
+ }
+ .menu_bar ul li a{
+     color:brown;
+     text-decoration: none;
+     transition: all 0.3s;
+ }
+ .menu_bar ul li a:hover{
+     color:#ffffff;
+     font-size: 22px;
+     font-style: fantasy;
+     font-color:#ffffff;
+ } 
+ .dropdown_menu{
+  display: none;
+ }
+ 
+ .menu_bar ul li:hover .dropdown_menu{
+     display: block;
+     position: absolute;
+     left: 0;
+     top: 100%;
+     background-color: #5ebab7 ;
+ }
+ .menu_bar ul li:hover .dropdown_menu ul{
+     display: block;
+     margin: 10px;
+ 
+ }
+ .menu_bar ul li:hover .dropdown_menu ul li{
+     width: 150px;
+     padding: 10px;
+ 
+ }
+ .fas{
+ 
+     float: right;
+     margin-left: 10px;
+     margin-top: 3px;
+ }
+ 
+ /* proccess under the courses */
+ 
+ .dropdown_menu-1{
+     display: none;
+ 
+ }
+ .dropdown_menu ul li:hover .dropdown_menu-1{
+     display: block;
+     position: absolute;
+     top: 0;
+     left: 150px;
+     background-color: #5ebab7;
+ }
+ 
+ 
+
+
+
+
+
+
+
+/* notices   section  */
+.news{
+    width: 100%;
+    height: 1500px;
+    background: url(./photos/dpuc5.jpg);
+    background-size: cover;
+
+}
+
+section .leftbox{
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+section .leftbox .content{
+    color: #fff;
+    background-color: rgba(0,0,0,.5);
+    transition: .5s;
+
+}
+section .leftbox .content:hover{
+    background: crimson;
+}
+section .leftbox .content h1{
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    text-transform: uppercase;
+
+}
+section .leftbox .content p
+{
+    margin: 10px 0 0;
+    padding: 0;
+
+}
+section .notice
+{
+    position:relative;
+    width: 50%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    float: right;
+    box-sizing: border-box; 
+}
+section .notice ul{
+    position: relative;
+    top: 46%;
+    transform: translateY(-50%);
+    margin: 0;
+    padding: 40px;
+    box-sizing: border-box;
+
+}
+section .notice ul li{
+    list-style: none;
+    background: #fff;
+    box-sizing: border-box;
+    height: 300px;
+
+}
+section .notice ul li .time{
+    position: relative;
+    padding: 20px;
+    background: #262626;
+    box-sizing: border-box;
+    width: 30%;
+    height: 100%;
+    float:left;
+    text-align: center;
+    transition: .5s;
+}
+section .notice ul li:hover .time{
+
+    background: crimson;
+}
+section .notice ul li .time h2{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 60px;
+    line-height: 30px;
+
+}
+section .notice ul li .time h2 span{
+    font-size: 30px;
+
+}
+section .notice ul li .details{
+    padding: 20px;
+    background: #fff;
+    box-sizing: border-box;
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+section .notice ul li .details h3{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+}
+section .notice ul li .details p{
+    position: relative;
+    margin: 10px 0 0;
+    padding: 0;
+    font-size: 16px;
+}
+section .notice ul li .details a{
+    display:inline-block ;
+    text-decoration: none;
+    
+    padding: 10px 15px ;
+    border:2px solid #262626;
+    margin-top: 15px;
+    font-size: 18px;
+    transition: .5s;
+}
+section .notice ul li .details a:hover{
+    background:crimson;
+    color: #fff;
+    border-color:crimson;
+}
+

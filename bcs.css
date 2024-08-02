@@ -1,0 +1,569 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body{
+     font-family: sans-serif;
+     background-color:none;
+ }
+ 
+ .first{
+     width:100% ;
+     height: 150px;
+     background-color:#ffffff;
+ }
+ .logo img{
+      top:30px;
+     height: 160px;
+     width: 160px;
+     margin-top: 9px;;
+ }
+ /* .pra h3,h2,h1{
+     display: flex;
+     width:100%;
+     text-align:center;
+     top:0%;
+     left:40px;
+     right: 5px;
+     position: absolute;
+   
+     justify-content:space-around;
+     
+   } */
+   
+   
+  .pra h3{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    /* left: 10px; */
+    top: 0%;
+    position: absolute;
+    justify-content: space-around;
+     color:#000000;
+     font-size: 20px;
+     margin-top: 7px;
+   }
+  .pra h2{
+     margin-top: 40px;
+     color:#000000 ;
+     font-size: 25px;
+     display: flex;
+     width:100%;
+     text-align:center;
+     top:0%;
+     left:0px;
+     right: px;
+     position: absolute;
+   
+     justify-content:space-around;
+     
+   }
+   .pra h1{
+     margin-top: 80px;
+     font-size: 45px;
+     font-family: mv boli;
+     color:crimson;
+     display: flex;
+     width:100%;
+     text-align:center;
+     top:0%;
+     /* left:40px;
+     right: 5px; */
+     position: absolute;
+   
+     justify-content:space-around;
+     
+   }
+ /* .dept{
+     font-size: 25px;
+     width: 400px;
+     height: 120px;
+     top: 5px;
+ }
+ .dept span{
+     color: rgb(124, 29, 29);
+     font-style:inherit;
+     font-size: 30px;
+ } */
+    
+
+ /*    menu bar    */
+ 
+ .menu_bar{
+     background-color:#5ebab7;
+     height: 70px;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0.5%;
+     margin-top: 2%;
+ }
+ .menu_bar ul{
+     list-style: none;
+     display: flex;
+ 
+ 
+ }
+ .menu_bar ul li{
+     padding: 10px 30px;
+     font-size: 20px;
+     position: relative;
+ 
+ }
+ .menu_bar ul li a{
+     color:brown;
+     font-weight: 500;
+     text-decoration: none;
+     transition: all 0.3s;
+ }
+ .menu_bar ul li a:hover{
+     color:#fff;
+     font-size: 20px;
+     font-style: fantasy;
+     font-color:#fff;
+ } 
+ .dropdown_menu{
+  display: none;
+ }
+ 
+ .menu_bar ul li:hover .dropdown_menu{
+     display: block;
+     position: absolute;
+     left: 0;
+     top: 100%;
+     background-color: #5ebab7 ;
+ }
+ .menu_bar ul li:hover .dropdown_menu ul{
+     display: block;
+     margin: 10px;
+ 
+ }
+ .menu_bar ul li:hover .dropdown_menu ul li{
+     width: 150px;
+     padding: 10px;
+ 
+ }
+ .fas{
+ 
+     float: right;
+     margin-left: 10px;
+     margin-top: 3px;
+ }
+ 
+ /* proccess under the courses */
+ 
+ .dropdown_menu-1{
+     display: none;
+ 
+ }
+ .dropdown_menu ul li:hover .dropdown_menu-1{
+     display: block;
+     position: absolute;
+     top: 0;
+     left: 150px;
+     background-color: #5ebab7;
+ }
+
+
+/*   bcs course information   */
+
+
+
+.bcs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'poppins' ,sans-serif;
+    width: 100%;
+    height: 900px;
+    background: linear-gradient(45deg,#ffaf00,#bb02ff);
+     background-attachment: fixed;
+    background-size: cover;
+    background-size: 100%;
+
+    /* padding-top: 30px; */
+}
+/* .head h4{
+    text-align: center;
+    font-size: 50px;
+    top: -400px;
+} */
+.container{
+    position: relative;
+    width:200%;
+     bottom: 200px;
+    /* margin-bottom:380%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container .card{
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin-top:0px;
+    background: #fff;
+     margin: 20px; 
+    border-radius: 20px;
+    overflow: hidden;
+    /* border: 2px solid #000000; */
+    box-shadow: 0 15px 25px rgba(0,0,0,0.2); 
+    transition: 0.5s;
+}
+.container:hover .card{
+    filter: blur(0px);
+    transform:scale(0.9);
+    opacity:0.5;
+}
+.container .card:hover{
+    filter:blur(0px);
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.container .card .circle{
+    position:relative;
+    width:100%;
+    height: 100%;
+     background: #ffaf00;
+     clip-path:circle(140px at center 0); 
+    text-align: center;
+}
+
+.container .card .circle h4{
+    color: #fff;
+    font-size: 30px;
+    padding: 34px 0;
+}
+
+.container .card .content{
+    position: relative;
+    bottom:170px;
+    page-break-after: 20px;
+    text-align: center;
+
+}
+.conatiner .card .content p{
+    color: #666;
+}
+.container .card:nth-child(1) .circle{
+    background: #ffaf00;
+}
+.container .card:nth-child(2) .circle{
+    background: #da2268;
+}
+.container .card:nth-child(3) .circle{
+    background: #bb02ff;
+}
+
+.container .subjects .card{
+    display:flex ;
+}
+.bcs .head_first_year{
+    
+    display: inline;
+    margin-top: 300px;
+    
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    font-family: mv boli;
+}
+
+
+
+
+/*   syllabus and subjects OF FIRST YEAR*/
+
+
+
+
+.bcs1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'poppins' ,sans-serif;
+    width: 100%;
+    /* margin-top: 200px; */
+    min-height: 10vh;
+    background: linear-gradient(45deg,#ffaf00,#bb02ff);
+     background-attachment: fixed;
+    background-size: cover;
+    background-size: 100%;
+
+}
+
+.container1{
+    position: relative;
+    width:200%;
+
+    bottom:250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container1 .card1{
+    position: relative;
+    width: 350px;
+    height: 400px;
+    background: #fff;
+     margin: 20px; 
+    border-radius: 20px;
+    overflow: hidden;
+    /* border: 2px solid #000000; */
+    box-shadow: 0 15px 25px rgba(0,0,0,0.2); 
+    transition: 0.5s;
+}
+.container1:hover .card1{
+    filter: blur(0px);
+    transform:scale(0.9);
+    opacity:0.5;
+}
+.container1 .card1:hover{
+    filter:blur(0px);
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.container1 .card1 .circle1{
+    position:relative;
+    width:100%;
+    height: 100%;
+     background: #ffaf00;
+     clip-path:circle(140px at center 0); 
+    text-align: center;
+}
+
+.container1 .card1 .circle1 h4{
+    color: #fff;
+    font-size: 30px;
+    padding: 34px 0;
+}
+
+.container1 .card1 .content1{
+    position: relative;
+    bottom:220px;
+    page-break-after: 20px;
+    text-align:center;
+    text-align:justify;
+    left: 40px;
+    
+}
+.conatiner1 .card1 .content1 p{
+    color: #666;
+}
+.container1 .card1:nth-child(1) .circle1{
+    background: #ffaf00;
+}
+.container1 .card1:nth-child(2) .circle1{
+    background: #da2268;
+}
+.container1 .card1:nth-child(3) .circle1{
+    background: #bb02ff;
+}
+.bcs2 .head_second_year {
+    
+    display: inline;
+    bottom: -950px;
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    font-family: mv boli;
+}
+
+
+/*   syllabus and subjects OF SECOND YEAR*/
+
+
+.bcs2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'poppins' ,sans-serif;
+    width: 100%;
+    /* margin-top: 200px; */
+    min-height: 100vh;
+    background: linear-gradient(45deg,#ffaf00,#bb02ff);
+     background-attachment: fixed;
+    background-size: cover;
+    background-size: 100%;
+
+}
+
+.container2{
+    position: relative;
+    width:200%;
+
+    bottom:130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container2 .card2{
+    position: relative;
+    width: 350px;
+    height: 400px;
+    background: #fff;
+     margin: 20px; 
+    border-radius: 20px;
+    overflow: hidden;
+    /* border: 2px solid #000000; */
+    box-shadow: 0 15px 25px rgba(0,0,0,0.2); 
+    transition: 0.5s;
+}
+.container2:hover .card2{
+    filter: blur(0px);
+    transform:scale(0.9);
+    opacity:0.5;
+}
+.container2 .card2:hover{
+    filter:blur(0px);
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.container2 .card2 .circle2{
+    position:relative;
+    width:100%;
+    height: 100%;
+     background: #ffaf00;
+      clip-path:circle(140px at center 0);  
+    text-align: center;
+}
+
+.container2 .card2 .circle2 h4{
+    color: #fff;
+    font-size: 30px;
+    padding: 34px 0;
+}
+
+.container2 .card2 .content2{
+    position: relative;
+    bottom:220px;
+    page-break-after: 20px;
+    text-align: center;
+    text-align:justify;
+    left: 40px;
+
+}
+.conatiner2 .card2 .content2 p{
+    color: #666;
+}
+.container2 .card2:nth-child(1) .circle2{
+    background: #ffaf00;
+}
+.container2 .card2:nth-child(2) .circle2{
+    background: #da2268;
+}
+.container2 .card2:nth-child(3) .circle2{
+    background: #bb02ff;
+}
+
+.bcs3 .head_third_year{
+    
+    display: inline;
+    bottom: -1570px;
+    
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    font-family: mv boli;
+}
+
+
+/*     subjects and syllabus of third year          */
+
+
+
+.bcs3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'poppins' ,sans-serif;
+    width: 100%;
+    /* margin-top: 200px; */
+    min-height: 100vh;
+    background: linear-gradient(45deg,#ffaf00,#bb02ff);
+     background-attachment: fixed;
+    background-size: cover;
+    background-size: 100%;
+
+}
+
+.container3{
+    position: relative;
+    width:200%;
+
+    bottom:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container3 .card3{
+    position: relative;
+    width: 350px;
+    height: 400px;
+    background: #fff;
+     margin: 20px; 
+    border-radius: 20px;
+    overflow: hidden;
+    /* border: 2px solid #000000; */
+    box-shadow: 0 15px 25px rgba(0,0,0,0.2); 
+    transition: 0.5s;
+}
+.container3:hover .card3{
+    filter: blur(0px);
+    transform:scale(0.9);
+    opacity:0.5;
+}
+.container3 .card3:hover{
+    filter:blur(0px);
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.container3 .card3 .circle3{
+    position:relative;
+    width:100%;
+    height: 100%;
+     background: #ffaf00;
+     clip-path:circle(140px at center 0); 
+    text-align: center;
+}
+
+.container3 .card3 .circle3 h4{
+    color: #fff;
+    font-size: 30px;
+    padding: 34px 0;
+}
+
+.container3 .card3 .content3{
+    position: relative;
+    bottom:220px;
+    page-break-after: 20px;
+    text-align: center;
+    text-align:justify;
+    left: 40px;
+
+
+}
+.conatiner3 .card3 .content3 p{
+    color: #666;
+}
+.container3 .card3:nth-child(1) .circle3{
+    background: #ffaf00;
+}
+.container3 .card3:nth-child(2) .circle3{
+    background: #da2268;
+}
+.container3 .card3:nth-child(3) .circle3{
+    background: #bb02ff;
+}
+
